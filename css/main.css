@@ -1,0 +1,13 @@
+@import "about.css";
+@import "variables.css";
+@import "body.css";
+@import "contact.css";
+@import "footer.css";
+@import "header.css";
+@import "navBar.css";
+@import "projects.css";
+
+
+body {
+    background-color: var(--orange);
+}
