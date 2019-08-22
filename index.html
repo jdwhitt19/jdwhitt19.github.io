@@ -19,8 +19,8 @@
 <body>
     
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><strong>Welcome</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,24 +28,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about"><strong>About</strong><span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projectsSection"><strong>Projects</strong></a>
             </li>
           </ul>
         </div>
@@ -54,8 +40,8 @@
       <!-- Header -->
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 class="display-4">Josh Whitt</h1>
+          <p class="lead">Future Web Developer</p>
         </div>
       </div>
 
@@ -63,20 +49,78 @@
       <div id = "about">
         <div class = "container">
           <div class = "row">
-            <div class = "col-sm-4">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class = "col-sm-6">
+              <h2><strong>About Me:</strong></h2>
+              <img class = "profilePicture" src = "assets/defaultProfilePicture.png" alt = "">
             </div>
-            <div class = "col-sm-4">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
-            <div class = "col-sm-4">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class = "col-sm-6">
+              <p>I graduated high school not knowing for sure whether or not I wanted to attend college. After some time spent thinking about this, I came across Eleven Fifty Academy. I had always been interested in code and so this school piqued my interest. </p>
             </div>
           </div>
         </div>
       </div>
 
+      <br>
+      <br>
+
+      <!--Projects-->
+
+    <div class = "container">
+      
+      <div class = "projectsSection" id = "projectsSection">
+        <h3 class = "projectHeader"><strong>Projects</strong></h3>
+      </div>
+
+      <br>
+
+
+    
+      <div class = "row gallery centerGallery no-gutters">
+        <div class = "col-sm-4">
+          <a class = "staticLayoutBox" href = "https://jdwhitt19.github.io/staticLayout/" target = "_blank">
+          <img class = "thumbnail" src = "./assets/staticLayoutThumbnail.PNG" alt = "">
+          </a>
+        </div>
+    
+
+        <div class = "col-sm-4">
+            <a class = "cssCreatureBox" href = "https://codepen.io/jwhitt_19/pen/OKzbME" target = "_blank">
+            <img class = "thumbnail" src = "./assets/cssCreatureThumbnail.PNG" alt = "">
+            </a>
+        </div>
+
+          <div class = "col-sm-4">
+            <a class = "apiProjectBox" href = "https://goldbadgeproject.firebaseapp.com/" target = "_blank">
+              <img class = "thumbnail" src = "./assets/apiProjectThumbnail.PNG" alt = "">
+              </a>
+        </div>
+      </div>
+
+      <div class = "row gallery centerGallery no-gutters">
+          <div class = "col-sm-4">
+            <a class = "blueBadgeBox" href = "https://elevenfifty.org/courses/full-time-immersive/javascript-full-time/" target = "_blank">
+            <img class = "thumbnail" src = "./assets/blueBadgeThumbnail.PNG" alt = "">
+            </a>
+          </div>
+          <div class = "col-sm-4">
+              <a class = "redBadgeBox" href = "https://elevenfifty.org/courses/full-time-immersive/javascript-full-time/" target = "_blank">
+              <img class = "thumbnail" src = "./assets/redBadgeThumbnail.PNG" alt = "">
+              </a>
+            </div>
+            <div class = "col-sm-4">
+                <a class = "apiProjectBox" href = "https://goldbadgeproject.firebaseapp.com/" target = "_blank">
+                <img class = "thumbnail" src = "./assets/" alt = "">
+                </a>
+              </div>
+        </div>
+
+        <br>
+        <br>
+
+    </div>
+
       <!-- Contact -->
+
       <div id = "contact">
         <div class = "container">
           <h2 class = "text-center text-uppercase">Contact Me</h2>
@@ -113,6 +157,33 @@
     </div>
   </div>
 </div>
+
+<br>
+<br>
+
+<div class = "row gallery centerGallery no-gutters">
+
+<div class = "col-sm-6">
+  <a class = "linkedIn" href = "https://www.linkedin.com/feed/" target = "_blank">
+  <img class = "thumbnail" src = "./assets/linkedInIcon.png" alt = "">
+  </a>
+</div>
+
+<div class = "col-sm-6">
+      <a class = "linkedIn" href = "https://github.com/jdwhitt19?tab=repositories" target = "_blank">
+    <img class = "thumbnail" src = "./assets/gitHubIcon.png" alt = "">
+    </a>
+  </div>
+
+</div>
+<!--Footer-->
+
+<div class = "footer">
+  <footer>
+    <p><strong>&copy Josh Whitt 2019</strong></p>
+  </footer>
+</div>
+
     <!-- JS Link -->
     <script src = "js/main.js"></script>
 
